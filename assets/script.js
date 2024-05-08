@@ -117,6 +117,8 @@ function endQuiz() {
     document.getElementById("game-over").style.display = "block";
 
     document.getElementById("start-button").style.display = "none";
+
+    document.getElementById("h3").style.display = "none";
 }
 
 // Function to save user's initials and final score in local storage
