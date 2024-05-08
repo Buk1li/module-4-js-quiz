@@ -21,3 +21,5 @@ Overall this was a really fun challenge, it definitely used a lot of methods I w
 This project is unlicensed
 
 ## Screenshots
+![M4-Start](https://github.com/Buk1li/module-4-js-quiz/assets/153480227/d8d4eb25-6eca-405d-88ef-f4edf90236f6)
+![M4-Game-Over](https://github.com/Buk1li/module-4-js-quiz/assets/153480227/a50bd75c-3fee-4054-92cc-3ceb83eeef81)
