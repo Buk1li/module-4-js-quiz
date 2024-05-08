@@ -11,9 +11,21 @@
 <body>
     <div class="container">
         <h1>Javascript Coding Quiz</h1>
+        <h3>You will have 60 seconds to complete 5 questions, a wrong answer will result in 5 seconds being deducted.
+        </h3>
         <div id="timer"></div>
         <button id="start-button">Start Quiz</button>
-        <div id="question-container"></div>
+        <div id="question-container" class="question-container"></div>
+        <div id="game-over" style="display: none;">
+            <h2>Game Over</h2>
+            <p id="score-message"></p>
+            <form id="initials-form">
+                <label for="initials">Enter your initials:</label>
+                <input type="text" id="initials" name="initials" maxlength="3" required>
+                <button type="submit">Submit</button>
+            </form>
+            <div id="high-scores"></div>
+        </div>
     </div>
     <script src="./assets/script.js"></script>
 </body>
